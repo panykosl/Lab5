@@ -4,7 +4,7 @@ public class BirthMonth_Lab5 {
         Scanner in = new Scanner(System.in);
         int birthMonth = 0;
 
-        System.out.println("What is your birth month? ");
+        System.out.print("What is your birth month?: ");
         birthMonth = in.nextInt();
         if (birthMonth <= 12) {
             System.out.println("Your birth month is " + birthMonth);
